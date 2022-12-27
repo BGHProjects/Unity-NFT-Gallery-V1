@@ -1,18 +1,46 @@
-import { ethers } from "hardhat";
+import {
+  artwork1,
+  artwork2,
+  artwork3,
+  artwork4,
+  artwork5,
+} from "../metadata/metadata";
+
+const { ethers, upgrades } = require("hardhat");
 
 async function main() {
-  const currentTimestampInSeconds = Math.round(Date.now() / 1000);
-  const ONE_YEAR_IN_SECS = 365 * 24 * 60 * 60;
-  const unlockTime = currentTimestampInSeconds + ONE_YEAR_IN_SECS;
+  const Marketplace_Contract = await ethers.getContractFactory("Marketplace");
+  console.log("\n\tBeginning to deploy the Marketplace contract...");
+  const MarketplaceContract = await upgrades.deployProxy(Marketplace_Contract);
+  await MarketplaceContract.deployed();
 
-  const lockedAmount = ethers.utils.parseEther("1");
+  console.log("\n\tMarketplace deployed: ", MarketplaceContract.address);
 
-  const Lock = await ethers.getContractFactory("Lock");
-  const lock = await Lock.deploy(unlockTime, { value: lockedAmount });
+  const Artwork_Contract = await ethers.getContractFactory("Artwork");
+  console.log("\n\tBeginning to deploy the Artwork contract...");
+  const ArtworkContract = await upgrades.deployProxy(Artwork_Contract, [
+    "ArtworkContract",
+    "ART",
+    MarketplaceContract.address,
+  ]);
+  await ArtworkContract.deployed();
 
-  await lock.deployed();
+  console.log("\n\tArtwork deployed: ", ArtworkContract.address);
 
-  console.log(`Lock with 1 ETH and unlock timestamp ${unlockTime} deployed to ${lock.address}`);
+  await ArtworkContract.mint(artwork1);
+  console.log("\n\tArtwork1 minted");
+
+  await ArtworkContract.mint(artwork2);
+  console.log("\n\tArtwork2 minted");
+
+  await ArtworkContract.mint(artwork3);
+  console.log("\n\tArtwork3 minted");
+
+  await ArtworkContract.mint(artwork4);
+  console.log("\n\tArtwork4 minted");
+
+  await ArtworkContract.mint(artwork5);
+  console.log("\n\tArtwork5 minted");
 }
 
 // We recommend this pattern to be able to use async/await everywhere

@@ -1,35 +1,25 @@
 {
   "manifestVersion": "3.2",
   "admin": {
-    "address": "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512",
-    "txHash": "0x48c9ed8b869898d3fec5727d979f8ac39bb9bcdcf6d0a05ddf9acbd35b283b56"
+    "address": "0x1ED24F25E9b959bBc5caBA4BA753432Ba605b2d1",
+    "txHash": "0xb365e4b523e12443f7081571f26f514c15fac16361b5071d6927b42f111c3aed"
   },
   "proxies": [
     {
-      "address": "0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0",
-      "txHash": "0x8b4a498594e01d40988670020a44022ecedc2f4a4717d035ca815a4ce98f2ae7",
+      "address": "0x2D40B9c3d6F73229968820D31972F040980398d4",
+      "txHash": "0xdf87600197d15ac5253d9944cf5177274c456e9a21bb6cba7fc9f435a0453664",
       "kind": "transparent"
     },
     {
-      "address": "0xDc64a140Aa3E981100a9becA4E685f962f0cF6C9",
-      "txHash": "0x351d8fbf87e7ee7469346d37e4edb4f5fbd8d23b87aa112ab196fca18b8b9ed1",
-      "kind": "transparent"
-    },
-    {
-      "address": "0x0165878A594ca255338adfa4d48449f69242Eb8F",
-      "txHash": "0x8eb6ce61bdebea38696d470068b5d23e06ccc3303cc0c67a7d276cef3f919def",
-      "kind": "transparent"
-    },
-    {
-      "address": "0xa513E6E4b8f2a923D98304ec87F64353C4D5C853",
-      "txHash": "0x85dc3751955bad2ad0564c59197180840ecfad504db203c4319a155d85b9444e",
+      "address": "0x01dB17D96dFf02409F6CB5b01182c54B33Ff59a9",
+      "txHash": "0x344d5caa6a1eda344ba9d482eac6376050ceeeb64cee837106a2f00653317e6d",
       "kind": "transparent"
     }
   ],
   "impls": {
-    "540c51bfd1ce34209dad9ece15bbb252069d54e056348649197d37176e7aa121": {
-      "address": "0x5FbDB2315678afecb367f032d93F642f64180aa3",
-      "txHash": "0x4032b4e02dbf438bd067fb0413ee7585fbc78aa5ff6402094c1c05d11e944465",
+    "4c1102364ac4a3ace720360da0810c7d5cfb1e2de540e7a02fdb380adc1d0d6d": {
+      "address": "0xB00271573784076bf68E95B56aE84574833AAd2a",
+      "txHash": "0x00c8492ab792e44bcc2ee681b1e7cee44fe67d7252fd990d6a3f1e7175a1c617",
       "layout": {
         "solcVersion": "0.8.17",
         "storage": [
@@ -56,7 +46,7 @@
             "slot": "1",
             "type": "t_uint256",
             "contract": "Marketplace",
-            "src": "contracts\\implementations\\Marketplace.sol:22"
+            "src": "contracts\\implementations\\Marketplace.sol:10"
           },
           {
             "label": "owner",
@@ -64,7 +54,7 @@
             "slot": "2",
             "type": "t_address_payable",
             "contract": "Marketplace",
-            "src": "contracts\\implementations\\Marketplace.sol:23"
+            "src": "contracts\\implementations\\Marketplace.sol:11"
           },
           {
             "label": "listingPrice",
@@ -72,15 +62,15 @@
             "slot": "3",
             "type": "t_uint256",
             "contract": "Marketplace",
-            "src": "contracts\\implementations\\Marketplace.sol:24"
+            "src": "contracts\\implementations\\Marketplace.sol:12"
           },
           {
             "label": "marketItems",
             "offset": 0,
             "slot": "4",
-            "type": "t_mapping(t_uint256,t_struct(MarketItem)4621_storage)",
+            "type": "t_mapping(t_uint256,t_struct(MarketItem)4003_storage)",
             "contract": "Marketplace",
-            "src": "contracts\\implementations\\Marketplace.sol:26"
+            "src": "contracts\\implementations\\Marketplace.sol:14"
           }
         ],
         "types": {
@@ -96,11 +86,11 @@
             "label": "bool",
             "numberOfBytes": "1"
           },
-          "t_mapping(t_uint256,t_struct(MarketItem)4621_storage)": {
+          "t_mapping(t_uint256,t_struct(MarketItem)4003_storage)": {
             "label": "mapping(uint256 => struct IMarketplace.MarketItem)",
             "numberOfBytes": "32"
           },
-          "t_struct(MarketItem)4621_storage": {
+          "t_struct(MarketItem)4003_storage": {
             "label": "struct IMarketplace.MarketItem",
             "members": [
               {
@@ -165,9 +155,9 @@
         }
       }
     },
-    "1a0660217e43f657149f27429d9296c64a2c42ffb8efe33f60a46a70f4c804cd": {
-      "address": "0xCf7Ed3AccA5a467e9e704C703E8D87F634fB0Fc9",
-      "txHash": "0x2a005f9881242af960479e33882dcdff374729786596b178da5e4c791553cfd8",
+    "4dc47e4fb32f2f8298f60472acca9f01a95f943def4264d2ffe016d2dd973a41": {
+      "address": "0xB606116aeBfF305e0f1521c88d7e9e5e24211848",
+      "txHash": "0x18462a053fd62707a4339eaa5d6c36bfdf63978e79452d7e98a3bc15bf98716a",
       "layout": {
         "solcVersion": "0.8.17",
         "storage": [
@@ -338,7 +328,7 @@
             "slot": "301",
             "type": "t_uint256",
             "contract": "Artwork",
-            "src": "contracts\\implementations\\Artwork.sol:28"
+            "src": "contracts\\implementations\\Artwork.sol:12"
           },
           {
             "label": "marketplaceContract",
@@ -346,7 +336,7 @@
             "slot": "302",
             "type": "t_address",
             "contract": "Artwork",
-            "src": "contracts\\implementations\\Artwork.sol:29"
+            "src": "contracts\\implementations\\Artwork.sol:13"
           }
         ],
         "types": {

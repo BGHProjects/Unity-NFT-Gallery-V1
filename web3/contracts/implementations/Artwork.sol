@@ -29,6 +29,11 @@ contract Artwork is ERC721Upgradeable, ERC721EnumerableUpgradeable, ERC721URISto
         tokenCounter++;
     }
 
+    function contractURI() public pure returns (string memory)
+    {
+        return "ipfs://Qmdyia2tdmKGVT3WEK4TCjBcRpnNLrgJqP4BGyew8W1LWa";
+    }
+
     // The following functions are overrides required by Solidity to use the Upgradeable ERC721
 
     function _beforeTokenTransfer(address from, address to, uint256 tokenId, uint256 batchSize)

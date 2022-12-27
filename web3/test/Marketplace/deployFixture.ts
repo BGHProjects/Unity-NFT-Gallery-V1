@@ -1,5 +1,5 @@
 import { SignerWithAddress } from "@nomiclabs/hardhat-ethers/signers";
-import { Artwork, Marketplace } from "../../typechain-types";
+import { Artwork, Marketplace } from "../../typechain";
 const { ethers, upgrades } = require("hardhat");
 
 let Deployer: SignerWithAddress;
