@@ -10,20 +10,22 @@ import "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol";
 contract Artwork is ERC721Upgradeable, ERC721EnumerableUpgradeable, ERC721URIStorageUpgradeable, IArtwork, OwnableUpgradeable {
 
     uint256 public tokenCounter;
+    address private marketplaceContract;
 
-    function initialize(string memory name, string memory symbol) initializer public {
+    function initialize(string memory name, string memory symbol, address _marketplaceContract) initializer public {
         // Initialise all upgradeable ERC721 variants
         __ERC721_init(name, symbol);
         __ERC721Enumerable_init();
         __ERC721URIStorage_init();
         __Ownable_init();
-
+        marketplaceContract = _marketplaceContract;
         tokenCounter = 0;
     }
 
     function mint(string memory _tokenURI) public {
         _safeMint(_msgSender(), tokenCounter);
         _setTokenURI(tokenCounter, _tokenURI);
+        _approve(marketplaceContract, tokenCounter);
         tokenCounter++;
     }
 

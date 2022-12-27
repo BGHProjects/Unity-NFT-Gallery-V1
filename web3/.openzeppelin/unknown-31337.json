@@ -12,14 +12,29 @@
     },
     {
       "address": "0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0",
-      "txHash": "0xdfbfa22a5504a7094793b834ebbe7b51550f129a1a447c87deccc62ac0340f62",
+      "txHash": "0x8b4a498594e01d40988670020a44022ecedc2f4a4717d035ca815a4ce98f2ae7",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xDc64a140Aa3E981100a9becA4E685f962f0cF6C9",
+      "txHash": "0x351d8fbf87e7ee7469346d37e4edb4f5fbd8d23b87aa112ab196fca18b8b9ed1",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x0165878A594ca255338adfa4d48449f69242Eb8F",
+      "txHash": "0x8eb6ce61bdebea38696d470068b5d23e06ccc3303cc0c67a7d276cef3f919def",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xa513E6E4b8f2a923D98304ec87F64353C4D5C853",
+      "txHash": "0x85dc3751955bad2ad0564c59197180840ecfad504db203c4319a155d85b9444e",
       "kind": "transparent"
     }
   ],
   "impls": {
-    "81721b8b161d85428151d79f1b27a03ae29987a2d4280a0b1efb1a9ec5e92e61": {
-      "address": "0x5FbDB2315678afecb367f032d93F642f64180aa3",
-      "txHash": "0x5b57dc860c0df9a9886e42517ee905ca910bee8988ea40fddb116a7931a59044",
+    "fd921af566efdefb936fd922da982bc046a047f58fa555fa36b3c826e497a69e": {
+      "address": "0xCf7Ed3AccA5a467e9e704C703E8D87F634fB0Fc9",
+      "txHash": "0xc19b696f8966dde33ad43802a06399ad17059c170d1c1461ddb2d4ed2d58b3a4",
       "layout": {
         "solcVersion": "0.8.17",
         "storage": [
@@ -191,6 +206,14 @@
             "type": "t_uint256",
             "contract": "Artwork",
             "src": "contracts\\implementations\\Artwork.sol:28"
+          },
+          {
+            "label": "marketplaceContract",
+            "offset": 0,
+            "slot": "302",
+            "type": "t_address",
+            "contract": "Artwork",
+            "src": "contracts\\implementations\\Artwork.sol:29"
           }
         ],
         "types": {
@@ -253,6 +276,144 @@
           "t_string_storage": {
             "label": "string",
             "numberOfBytes": "32"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          },
+          "t_uint8": {
+            "label": "uint8",
+            "numberOfBytes": "1"
+          }
+        }
+      }
+    },
+    "804437bf722cfc86e1f48c4605fddce9cfb1c486a977097d2deb8d9403035586": {
+      "address": "0x5FbDB2315678afecb367f032d93F642f64180aa3",
+      "txHash": "0x297e894aa53ee886e0bbc9d32b4bc36efe8d23e4c8acc4e039457b8615a905b9",
+      "layout": {
+        "solcVersion": "0.8.17",
+        "storage": [
+          {
+            "label": "_initialized",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint8",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:62",
+            "retypedFrom": "bool"
+          },
+          {
+            "label": "_initializing",
+            "offset": 1,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:67"
+          },
+          {
+            "label": "itemCounter",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_uint256",
+            "contract": "Marketplace",
+            "src": "contracts\\implementations\\Marketplace.sol:22"
+          },
+          {
+            "label": "owner",
+            "offset": 0,
+            "slot": "2",
+            "type": "t_address_payable",
+            "contract": "Marketplace",
+            "src": "contracts\\implementations\\Marketplace.sol:23"
+          },
+          {
+            "label": "listingPrice",
+            "offset": 0,
+            "slot": "3",
+            "type": "t_uint256",
+            "contract": "Marketplace",
+            "src": "contracts\\implementations\\Marketplace.sol:24"
+          },
+          {
+            "label": "marketItems",
+            "offset": 0,
+            "slot": "4",
+            "type": "t_mapping(t_uint256,t_struct(MarketItem)1213_storage)",
+            "contract": "Marketplace",
+            "src": "contracts\\implementations\\Marketplace.sol:26"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_address_payable": {
+            "label": "address payable",
+            "numberOfBytes": "20"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_mapping(t_uint256,t_struct(MarketItem)1213_storage)": {
+            "label": "mapping(uint256 => struct IMarketplace.MarketItem)",
+            "numberOfBytes": "32"
+          },
+          "t_struct(MarketItem)1213_storage": {
+            "label": "struct IMarketplace.MarketItem",
+            "members": [
+              {
+                "label": "itemId",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "nftContractAddress",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "tokenId",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "2"
+              },
+              {
+                "label": "seller",
+                "type": "t_address_payable",
+                "offset": 0,
+                "slot": "3"
+              },
+              {
+                "label": "owner",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "4"
+              },
+              {
+                "label": "price",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "5"
+              },
+              {
+                "label": "isSold",
+                "type": "t_bool",
+                "offset": 0,
+                "slot": "6"
+              },
+              {
+                "label": "isPresent",
+                "type": "t_bool",
+                "offset": 1,
+                "slot": "6"
+              }
+            ],
+            "numberOfBytes": "224"
           },
           "t_uint256": {
             "label": "uint256",

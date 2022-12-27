@@ -75,4 +75,9 @@ interface IMarketplace {
     /// @dev User doesn't own the item
     error OnlyOwnerCanChangePrice();
 
+    /// @dev Caller doesn't own the NFT
+    error OnlyOwnerCanListItem();
+
+    /// @dev Item is already listed on the marketplace
+    error ItemAlreadyListed();
 }
