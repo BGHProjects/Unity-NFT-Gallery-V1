@@ -16,7 +16,7 @@
 - Adapted from [this tutorial](https://learn.figment.io/tutorials/building-a-3d-art-gallery-using-unity3d-and-nethereum) by [Bhaskar Dutta](https://github.com/BhaskarDutta2209).
 - The user can roam around the gallery environment, and view a visual representation of NFTs that are present on the marketplace. When the user stands close to an artwork, details about it are displayed on the screen, including the title, description, if its available for purchase, the seller, and the price.
 - The smart contract system for this project involved an [ERC721 standard NFT](https://ethereum.org/en/developers/docs/standards/tokens/erc-721/) that is [enumerable](https://docs.openzeppelin.com/contracts/3.x/api/token/erc721#IERC721Enumerable) and implements [URI storage](https://docs.openzeppelin.com/contracts/4.x/api/token/erc721#ERC721URIStorage), as well as a custom Marketplace contract which allows users to list an NFT and buy it for the listed price. Both contracts are also [upgradeable](https://docs.openzeppelin.com/contracts/4.x/upgradeable). 
-- NOTE: This project is a proof of concept, and not intended to represent a polished Web3 application. The contract used in this application has not been audited, and I take no responsiblity for issues which may arise out of its extended use.
+- NOTE: This project is a proof of concept, and not intended to represent a polished Web3 application. The contract system used in this application has not been audited, and I take no responsiblity for issues which may arise out of its extended use.
 
 ## OpenSea
 The NFT collection associated with this contract can be viewed on the [testnet version of OpenSea](https://testnets.opensea.io/collection/unity-nft-gallery-collection)
