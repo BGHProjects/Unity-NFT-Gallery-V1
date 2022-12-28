@@ -2,14 +2,13 @@
 
 <div align="center">
   <a href="https://unity.com/"><img src="./READMEContent/StackLogos/Unity.png" width="100" height="100"></a>
-[<img src="./READMEContent/StackLogos/Unity.png" width="100" height="100">](https://unity.com/)
-[<img src="./READMEContent/StackLogos/CSharp.png" width="100" height="100">](https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/)
-[<img src="./READMEContent/StackLogos/Nethereum.png" width="100" height="100">](https://nethereum.com/)
-[<img src="./READMEContent/StackLogos/Solidity.png" width="100" height="100">](https://docs.soliditylang.org/en/v0.8.17/)
-[<img src="./READMEContent/StackLogos/OpenZeppelin.png" width="100" height="100">](https://www.openzeppelin.com/)
-[<img src="./READMEContent/StackLogos/Hardhat.png" width="100" height="100">](https://hardhat.org/)
-[<img src="./READMEContent/StackLogos/Polygon.png" width="100" height="100">](https://polygon.technology/)
-[<img src="./READMEContent/StackLogos/Typescript.png" width="100" height="100">](https://www.typescriptlang.org/)
+  <a href="https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/"><img src="./READMEContent/StackLogos/CSharp.png" width="100" height="100"></a>
+  <a href="https://nethereum.com/"><img src="./READMEContent/StackLogos/Nethereum.png" width="100" height="100"></a>
+  <a href="https://docs.soliditylang.org/en/v0.8.17/"><img src="./READMEContent/StackLogos/Solidity.png" width="100" height="100"></a>
+  <a href="https://www.openzeppelin.com/"><img src="./READMEContent/StackLogos/OpenZeppelin.png" width="100" height="100"></a>
+  <a href="https://hardhat.org/"><img src="./READMEContent/StackLogos/Hardhat.png" width="100" height="100"></a>
+  <a href="https://polygon.technology/"><img src="./READMEContent/StackLogos/Polygon.png" width="100" height="100"></a>
+  <a href="https://www.typescriptlang.org/"><img src="./READMEContent/StackLogos/Typescript.png" width="100" height="100"></a>
 </div>
 
 - This project is a NFT Gallery proof of concept, that allows users to explore a 3D environment to view a series of NFTs, including their images and details
