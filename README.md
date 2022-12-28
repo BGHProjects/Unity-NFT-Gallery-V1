@@ -10,7 +10,8 @@
   <a href="https://polygon.technology/"><img src="./READMEContent/StackLogos/Polygon.png" width="100" height="100"></a>
   <a href="https://www.typescriptlang.org/"><img src="./READMEContent/StackLogos/Typescript.png" width="100" height="100"></a>
 </div>
-</br>
+
+
 - This project is a NFT Gallery proof of concept, that allows users to explore a 3D environment to view a series of NFTs, including their images and details
 - Adapted from [this tutorial](https://learn.figment.io/tutorials/building-a-3d-art-gallery-using-unity3d-and-nethereum) by [Bhaskar Dutta](https://github.com/BhaskarDutta2209).
 - The user can roam around the gallery environment, and view a visual representation of NFTs that are present on the marketplace. When the user stands close to an artwork, details about it are displayed on the screen, including the title, description, if its available for purchase, the seller, and the price.
