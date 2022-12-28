@@ -1,14 +1,14 @@
 <div align="center"><h1>Unity NFT Gallery V1</h1></div>
 </br>
 <div align="center">
-[<img src="./READMEContent/StackLogos/Unity.png" width="100" height="100"/>](https://unity.com/)
-[<img src="./READMEContent/StackLogos/CSharp.png" width="100" height="100"/>](https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/)
-[<img src="./READMEContent/StackLogos/Nethereum.png" width="100" height="100"/>](https://nethereum.com/)
-[<img src="./READMEContent/StackLogos/Solidity.png" width="100" height="100"/>](https://docs.soliditylang.org/en/v0.8.17/)
-[<img src="./READMEContent/StackLogos/OpenZeppelin.png" width="100" height="100"/>](https://www.openzeppelin.com/)
-[<img src="./READMEContent/StackLogos/Hardhat.png" width="100" height="100"/>](https://hardhat.org/)
-[<img src="./READMEContent/StackLogos/Polygon.png" width="100" height="100"/>](https://polygon.technology/)
-[<img src="./READMEContent/StackLogos/Typescript.png" width="100" height="100"/>](https://www.typescriptlang.org/)
+[<img src="./READMEContent/StackLogos/Unity.png" width="100" height="100">](https://unity.com/)
+[<img src="./READMEContent/StackLogos/CSharp.png" width="100" height="100">](https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/)
+[<img src="./READMEContent/StackLogos/Nethereum.png" width="100" height="100">](https://nethereum.com/)
+[<img src="./READMEContent/StackLogos/Solidity.png" width="100" height="100">](https://docs.soliditylang.org/en/v0.8.17/)
+[<img src="./READMEContent/StackLogos/OpenZeppelin.png" width="100" height="100">](https://www.openzeppelin.com/)
+[<img src="./READMEContent/StackLogos/Hardhat.png" width="100" height="100">](https://hardhat.org/)
+[<img src="./READMEContent/StackLogos/Polygon.png" width="100" height="100">](https://polygon.technology/)
+[<img src="./READMEContent/StackLogos/Typescript.png" width="100" height="100">](https://www.typescriptlang.org/)
 </div>
 </br>
 - This project is a NFT Gallery proof of concept, that allows users to explore a 3D environment to view a series of NFTs, including their images and details
@@ -21,8 +21,8 @@
 The NFT collection associated with this contract can be viewed on the [testnet version of OpenSea](https://testnets.opensea.io/collection/unity-nft-gallery-collection)
 
 ## Test Coverage
-<div align="center"><img src="./READMEContent/TestCoverage/AllTests.png" /></div>
-<div align="center"><img src="./READMEContent/TestCoverage/Coverage.png" /></div>
+<div align="center"><img src="./READMEContent/TestCoverage/AllTests.PNG" /></div>
+<div align="center"><img src="./READMEContent/TestCoverage/Coverage.PNG" /></div>
 
 ## Deployments (Polygon Mumbai Polyscan)
 - [Artwork](https://mumbai.polygonscan.com/address/0x71327218f2753D67680D3735C9C3D9379E8d1109#code)
