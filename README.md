@@ -31,15 +31,15 @@ The NFT collection associated with this contract can be viewed on the [testnet v
 ## Screenshots
 
 ### Gallery
-<div align="center"><img src="./READMEContent/Gallery/IntroRoom.png" /></div>
-<div align="center"><img src="./READMEContent/Gallery/Shot1.png" /></div>
-<div align="center"><img src="./READMEContent/Gallery/Shot2.png" /></div>
-<div align="center"><img src="./READMEContent/Gallery/Shot3.png" /></div>
-<div align="center"><img src="./READMEContent/Gallery/Shot4.png" /></div>
+<div align="center"><img src="./READMEContent/Gallery/IntroRoom.PNG" /></div>
+<div align="center"><img src="./READMEContent/Gallery/Shot1.PNG" /></div>
+<div align="center"><img src="./READMEContent/Gallery/Shot2.PNG" /></div>
+<div align="center"><img src="./READMEContent/Gallery/Shot3.PNG" /></div>
+<div align="center"><img src="./READMEContent/Gallery/Shot4.PNG" /></div>
 
 ### Artworks
-<div align="center"><img src="./READMEContent/Gallery/Artwork1.png" /></div>
-<div align="center"><img src="./READMEContent/Gallery/Artwork2.png" /></div>
-<div align="center"><img src="./READMEContent/Gallery/Artwork3.png" /></div>
-<div align="center"><img src="./READMEContent/Gallery/Artwork4.png" /></div>
-<div align="center"><img src="./READMEContent/Gallery/Artwork5.png" /></div>
+<div align="center"><img src="./READMEContent/Gallery/Artwork1.PNG" /></div>
+<div align="center"><img src="./READMEContent/Gallery/Artwork2.PNG" /></div>
+<div align="center"><img src="./READMEContent/Gallery/Artwork3.PNG" /></div>
+<div align="center"><img src="./READMEContent/Gallery/Artwork4.PNG" /></div>
+<div align="center"><img src="./READMEContent/Gallery/Artwork5.PNG" /></div>
