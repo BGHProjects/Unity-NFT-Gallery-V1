@@ -1,8 +1,9 @@
 <div align="center"><h1>Unity NFT Gallery V1</h1></div>
 
 <div align="center">
-![<img src="./READMEContent/StackLogos/Unity.png" width="100" height="100">](https://unity.com/)
-[!<img src="./READMEContent/StackLogos/CSharp.png" width="100" height="100">](https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/)
+  <a href="https://unity.com/"><img src="./READMEContent/StackLogos/Unity.png" width="100" height="100"></a>
+[<img src="./READMEContent/StackLogos/Unity.png" width="100" height="100">](https://unity.com/)
+[<img src="./READMEContent/StackLogos/CSharp.png" width="100" height="100">](https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/)
 [<img src="./READMEContent/StackLogos/Nethereum.png" width="100" height="100">](https://nethereum.com/)
 [<img src="./READMEContent/StackLogos/Solidity.png" width="100" height="100">](https://docs.soliditylang.org/en/v0.8.17/)
 [<img src="./READMEContent/StackLogos/OpenZeppelin.png" width="100" height="100">](https://www.openzeppelin.com/)
